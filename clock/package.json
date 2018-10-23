@@ -1,0 +1,12 @@
+{
+  "name": "luwei-clock",
+  "version": "1.0.2",
+  "description": "时钟组件",
+  "main": "Clock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["clock"],
+  "author": "",
+  "license": "ISC"
+}
