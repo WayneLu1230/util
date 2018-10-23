@@ -1,14 +1,14 @@
 {
-  "name": "calendar",
-  "version": "1.0.0",
+  "name": "luwei-calendar",
+  "version": "1.0.2",
+  "main": "luwei-calendar.js",
   "description": "日历组件",
-  "main": "calendar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "卢炜斌",
   "license": "ISC",
-  "devDependencies": {
-    "babel-preset-es2015": "^6.24.1"
+  "dependencies": {
+    "basic": "^2.0.3"
   }
 }

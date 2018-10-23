@@ -1,3 +1,5 @@
+import './luwei-calendar.css';
+
 const date = new Date();   //当前日期
 const year = date.getFullYear();  //当年
 const month = date.getMonth() + 1;  //当月
@@ -73,7 +75,6 @@ function createCalendar() {
 
         canlendarArr.push("")
     }
-
 
 
     let element = document.getElementById('calendar');
@@ -152,8 +153,6 @@ function createCalendar() {
     element.appendChild(fragment);
 
 }
-
-createCalendar();
 
 export default createCalendar;
 
